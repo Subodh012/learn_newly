@@ -1,0 +1,3 @@
+link=http://localhost:100/index.php?module=Home&action=index
+username=admin
+pass=admin

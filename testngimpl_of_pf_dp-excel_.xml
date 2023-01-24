@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="4">
+  <test thread-count="5" name="Test">
+ <parameter name="" value=""></parameter> 
+ <groups>
+ <run>
+<include name="abc"></include>
+ <exclude name="pqr"></exclude>
+ </run>
+  </groups>
+ 
+ <packages>
+ <package name="*"></package>
+ </packages> 
+    <classes>
+        <class name="how_to_access_prop_dataprov_excel_xml.implementation_of_pf_dp_excel_xml">
+     <methods>
+    <include name=""></include>
+    <exclude name=""></exclude>
+     </methods>
+        </class>
+              </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
